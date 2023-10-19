@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.example.demo.service.NotaService;
 import com.sistemaescolar.dto.NotaDto;
 import com.sistemaescolar.model.Nota;
+import com.sistemaescolar.service.NotaService;
 
 @RestController
 @RequestMapping(value = "/notas")

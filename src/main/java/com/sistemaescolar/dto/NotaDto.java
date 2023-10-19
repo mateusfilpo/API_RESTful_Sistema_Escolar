@@ -1,6 +1,6 @@
 package com.sistemaescolar.dto;
 
-import com.example.demo.model.enums.Bimestre;
+import com.sistemaescolar.model.enums.Bimestre;
 
 public class NotaDto {
 

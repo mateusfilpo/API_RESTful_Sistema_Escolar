@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.example.demo.service.EscolaService;
 import com.sistemaescolar.model.Escola;
+import com.sistemaescolar.service.EscolaService;
 
 @RestController
 @RequestMapping(value = "/escolas")

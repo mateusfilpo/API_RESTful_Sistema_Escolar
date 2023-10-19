@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import com.example.demo.dto.ProfessorDto;
-import com.example.demo.model.enums.MateriaEscolar;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.sistemaescolar.dto.ProfessorDto;
+import com.sistemaescolar.model.enums.MateriaEscolar;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;

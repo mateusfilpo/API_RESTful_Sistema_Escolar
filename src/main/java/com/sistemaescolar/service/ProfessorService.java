@@ -7,7 +7,6 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.service.exception.ResourceNotFoundException;
 import com.sistemaescolar.dto.ProfessorDto;
 import com.sistemaescolar.model.Escola;
 import com.sistemaescolar.model.Professor;
@@ -15,6 +14,7 @@ import com.sistemaescolar.model.Turma;
 import com.sistemaescolar.repository.EscolaRepository;
 import com.sistemaescolar.repository.ProfessorRepository;
 import com.sistemaescolar.repository.TurmaRepository;
+import com.sistemaescolar.service.exception.ResourceNotFoundException;
 
 import jakarta.persistence.EntityNotFoundException;
 

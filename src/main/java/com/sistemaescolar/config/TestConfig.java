@@ -5,7 +5,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.example.demo.repository.EscolaRepository;
 import com.sistemaescolar.model.Aluno;
 import com.sistemaescolar.model.Endereco;
 import com.sistemaescolar.model.Escola;
@@ -14,6 +13,7 @@ import com.sistemaescolar.model.Professor;
 import com.sistemaescolar.model.Turma;
 import com.sistemaescolar.model.enums.Bimestre;
 import com.sistemaescolar.model.enums.MateriaEscolar;
+import com.sistemaescolar.repository.EscolaRepository;
 
 @Configuration
 @Profile("test")

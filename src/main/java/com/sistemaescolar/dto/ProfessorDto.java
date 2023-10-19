@@ -3,7 +3,7 @@ package com.sistemaescolar.dto;
 import java.util.List;
 import java.util.Objects;
 
-import com.example.demo.model.enums.MateriaEscolar;
+import com.sistemaescolar.model.enums.MateriaEscolar;
 
 public class ProfessorDto {
 
